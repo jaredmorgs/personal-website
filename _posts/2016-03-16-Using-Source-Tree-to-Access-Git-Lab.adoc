@@ -1,0 +1,128 @@
+---
+layout: post
+title:  "Using SourceTree to access GitLab"
+categories: [Tech Writing]
+#tags: [open, source, bitbucket, stash, gitlab, vcs]
+image: assets/images/covers/open_source.jpg
+description: "You can use GitLab with SourceTree but you need to use SSH"
+featured: true
+#hidden: true
+#rating: 4.5
+---
+
+If you want to make the switch to https://gitlab.com[GitLab] from GitHub, or BitBucket Cloud or Server, the way you need to use SourceTree is a little unintuitive as I discovered the other day.
+
+There is no Account profile you can use to specify your GitLab credentials, so how do you connect?
+
+toc::[]
+
+== Making the switch
+
+The basic process to follow is outlined below:
+
+* Generate an SSH Public Key.
+* Apply the key to your GitLab user profile.
+* Use the "Clone from URL" SourceTree feature to check out repositories from SourceTree using SSH.
+
+For some folks, that might be enough of a clue to get them on the right path. 
+If this has not helped you, read on for step-by-step instructions.
+
+=== Generate an SSH key
+
+GitLab offers SSH as a method to handle authentication between the master and remote repositories.
+The advantage of SSH is that you do not need to provide a User Name or Password when you commit work.
+
+To push content to GitLab using SourceTree, you will need to generate a SSH Public Key using the command-line on your Windows, Mac, or Linux PC.
+The following procedures and references will help you achieve this.
+
+.Log onto GitLab UI
+. Log onto GitLab.
+. In the left pane, click `Profile Settings`.
+. Click `SSH Keys`.
+
+==== Retrieve an existing public key
+
+You'll notice that the `SSH Keys` page displays a banner suggesting you create a SSH Key Pair.
+
+The SSH protocol handles all aspects of verifying who you are using https://en.wikipedia.org/wiki/Public-key_cryptography[Public Key Cryptography].
+It is a very secure method of authentication, which is why many folks choose it as the only way they interact with GitLab, and other Version Control Systems (VCS).
+
+If you have set up SSH for GitHub or another repository before, you can run either of these commands in a terminal to retrieve your public key and enter this into the `SSH Keys` screen:
+
+Windows::
+  `type %userprofile%\.ssh\id_rsa.pub`
+Mac or Linux::
+  `cat ~/.ssh/id_rsa.pub`
+
+==== Generate a SSH key pair
+
+If you do not get a key after issuing either of these commands, read on for instructions.
+
+To create a SSH Key Pair:
+
+. Load http://doc.gitlab.com/ce/ssh/README.html in your browser.
+
+. Read the instructions described on this page, and use the commands specified to generate the required key pair.
+
+==== Apply the key pair to your user profile
+
+To apply the key to your profile:
+
+. Once you have a public key, click btn:[Add SSH Key].
+
+. Paste the key into the `Key` field.
+
+. Click btn:[Add key] to set the SSH key.
+
+=== Clone GitLab repositories in SourceTree
+
+Because SourceTree does not have a specific protocol defined for GitLab in it's Accounts tab, clicking `Remotes` and selecting from the list of known repositories will not work.
+
+You need to change your approach when cloning repositories from GitLab to the "Clone from URL" method.
+
+To clone a GitLab repository using SourceTree:
+
+. Load https://gitlab.com in your browser. 
+
+. Navigate to the GitLab repository you want to clone.
+
+. Copy the `SSH` path shown in the screen.
+
+. In SourceTree, click menu:New Repository[Clone from URL].
+
+. Paste the copied SSH path into the `Source URL` field.
+
+. Specify the `Destination Path` and `Name` as you have done previously.
+
+. Click btn:[Clone].
+
+The repository is cloned using the SSH protocol and now appears in the Local tab of SourceTree.
+
+== Bonus: Update local legacy repositories to point To GitLab repositories in SourceTree
+
+If you are migrating all your repositories over from another VCS to GitLab, chances are you have all the old repositories checked-out to your PC already. 
+
+You don't need to delete them all and check them out again through GitLab. Update the remote origin to point to the new GitLab SSH path and you'll be back in business.
+
+To change upstream repository information in SourceTree:
+
+. Load https://gitlab.com in your browser.
+
+. Navigate to the GitLab repository you want to update locally.
+
+. Copy the `SSH` path shown in the screen.
+
++
+NOTE: The SSH path should be the default. If `HTTPS` is shown, change it to `SSH` to refresh the URL.
+
+. Open SourceTree.
+
+. Click the `Local` tab to display all locally-tracked repositories.
+
+. Double-click on a repository to open the interface for the selected repository.
+
+. Click btn:[Settings] (top right of the interface).
+
+. In the `Remotes` group, click on the `origin` path, and then click btn:[Edit].
+
+. Paste the SSH path you copied from the GitLab UI into this field and then click btn:[Save].

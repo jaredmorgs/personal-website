@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Package messages FAILED when using fedora fedup system upgrade tool"
+categories: [Open Source]
+tags: [fedora, fedup, FAILED]
+image: assets/images/covers/open_source.jpg
+description: "Are you 'fedup' with unhelpful failed package message when upgrading fedora? Try this tip."
+#featured: true
+#hidden: true
+#rating: 4.5
+---
+
+After doing something pretty stupid with gParted and LVM last night, I find myself reinstalling Fedora 20 today. 
+I've found a fix to the FAILED package messages you get if you have tried running `fedup` a few times trying to upgrade. 
+
+== Temp caches
+
+The `fedup` tool creates a temporary upgrade cache in `/var/cache/system-upgrade/`. 
+If you are seeing any strange behavior with `fedup` as it attempts to download packages, you might want to move into this directory and delete all data. 
+
+Deleting the data allowed me to successfully upgrade to Fedora 22. 
+Hopefully this works for you.

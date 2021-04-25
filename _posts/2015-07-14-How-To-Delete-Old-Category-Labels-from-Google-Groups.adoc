@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "How to delete old category labels from Google Groups"
+categories: [Tech Writing]
+tags: [google groups, labels, tags, categories, delete]
+image: assets/images/covers/ideas.jpg
+description: "Deleting categories from Google Groups shouldn't be this tricky, but it is."
+#featured: true
+#hidden: true
+#rating: 4.5
+---
+
+Something that has been puzzling me for a while is how Tags and Categories labels are displayed in Google Groups. 
+I've had a breakthrough today with deleting a whole stack of Category labels which were impossible to delete through the Tags menu.
+
+== Problem
+
+You originally enabled Categories in Google Groups, but found they didn't work for your particular community. 
+
+You switched over to Tags, and created some custom labels for the tags. 
+But the old Category labels are present in your Tags page, and you can't delete them. 
+
+Every time you click on the `[X]` button beside each Category label, then Save the page, the labels come back again. 
+
+"WTF Google", you curse. 
+
+== Solution
+
+To delete the old Category labels, you need to first delete them in the Categories menu. 
+This is so unintuitive, and a terrible UX. 
+The reason why it is terrible is that there are no clues that this is what you need to do. 
+And the Google Group help gives you absolutely _no clue_ about the correct method to use.
+
+To delete category labels from Google Groups:
+
+. Open the Google Group managment console.
+
+. Open the menu:Settings[Categories] view.
+
+. Delete *all* the old Category labels by clicking the `[X]` button beside each Category.
+
+. Open the menu:Settings[Tags] view.
+
+. Delete the unwanted Category labels by clicking the '[X]` button beside each Tag label.
+
+== Additional Info
+
+I have to say this confused me for over half a year as to why I couldn't go into menu:Settings[Tags] and delete the old Category labels. 
+There was no Info message to suggest that these tags are borne from Categories and you need to go into Categories and completely delete them.
+
+I guess you could argue that you should choose one metadata strategy and stick with it, but for my community that I manage, experimentation was the only way to determine this.
+
+I'd suggest that Google Groups team needs to consider this particular UX issue, and work around it with some sort of alert. 

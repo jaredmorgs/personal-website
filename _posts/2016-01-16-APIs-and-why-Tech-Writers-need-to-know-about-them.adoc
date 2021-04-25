@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "APIs, and why Tech Writers need to know about them"
+categories: [Tech Writing]
+tags: [tech writing, API, podcasts]
+image: assets/images/covers/ideas.jpg
+description: "Try out Tom Johnson podcast and learn some stuff while you commute."
+#featured: true
+#hidden: true
+#rating: 4.5
+---
+
+I'm finding more and more that consuming podcasts is a more accessible way to learn about things. I find I don't have time to sit down and read a book, but it is easy to put a podcast on while commuting or walking around at lunch. 
+
+I still get a knowledge transfer from the podcast, and in many cases it prompts me to do some targeted research on the discussion points after consuming the podcast.
+
+Case in point: Tom Johnson and his http://idratherbewriting.com/category-podcasts/[I'd Rather Be Writing podcast]. 
+
+I discovered Tom Johnson by doing a search for `Technical Writing` in https://play.google.com/store/apps/details?id=au.com.shiftyjelly.pocketcasts&hl=en[Pocketcasts] (or iTunes if you are in the Apple ecosystem). He really is the only Tech Writer pushing Podcast content up. 
+
+Tom works in the San Francisco Silicon Valley area, which is seeing a strong trend upward with companies desperate for Technical Writers capable of writing Application Programming Interface (API) documentation. 
+
+His podcasts almost always focus on the emerging trends of API documentation, and have honestly been invaluable for me in Australia. I feel that Australia really isn't seeing the same upward trend in API documentation that the Silicon Valley Tech Writing industry is seeing, mainly due to the lack of a vibrant (and concentrated) start-up scene. 
+
+Nearly every start-up wants to expose their killer app or hosted service to API endpoints, so developers can consume the start-up's service, and implement their technology into apps and websites. The requirement to document these endpoints (in many cases both internal *and* external) form a crucial part of a start-up's product offering.
+
+Tom's content is incredibly useful. And in the case of the work I'm doing at Ladbrokes, it is also timely. I'm working with engineers that work on an internal API. I've also been able to recommend and shortlist API frameworks like http://swagger.io/[Swagger], https://stripe.com/docs/api#intro[Stripe], and begin to have intelligent conversations with devs about how APIs work. 
+
+I'm even taking inspiration from Tom's http://idratherbewriting.com/2015/12/29/trends-technical-writing-2016/[2016 Tech Writing Predictions] post and starting to learn a programming language. 
+
+So if you are a Tech Writer that is oblivious to what APIs are, do yourself a favour and check out Tom's past-casts. Even the old ones are great, because they were captured at a time when Tom was learning about APIs as well. It is amazing to see how far this part of Technical Writing has evolved since Tom's first podcast.
+

@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Being Switzerland Has Its Advantages"
+categories: [Tech Writing]
+#tags: [red, yellow]
+image: assets/images/covers/ideas.jpg
+description: "Becoming the Switzerland of your Organisation may evolve your Technical Writing career into an invaluable interface layer between departments."
+#featured: true
+#hidden: true
+#rating: 4.5
+---
+
+"Becoming the Switzerland of your Organisation" may evolve your Technical Writing career into an invaluable interface layer between departments.
+
+Being neutral, and approachable allows folks that may have pre-conceived ideas about other departments drop their guard and open up to reveal sometimes startling revelations about how a product is used. You can then use this information to add value to the products that you document, far beyond simple documentation.
+
+One recent case where this approach helped tremendously is a situation of "mistaken identity" of a group of options in a User Interface (UI). 
+
+The options were part of a larger function in the UI that allowed conditions to be set against certain events. The problem was the group label (let's call it `Zones`) remained constant while the intent of the conditions (let's call them `Limits`) outgrew the UI nomenclature. As I discovered, what started out as a small, logical nomenclature grew into something so overloaded in meaning that it was confusing multiple stakeholders. Worse still, the overloaded meaning was creeping into the codebase.
+
+With the question about what these fields meant floating around in my sub-conscious, I was on my way back from the bathroom and happened to see one of our internal customers, who showed me how other parts of this system worked during my staff orientation. 
+I decided to do something at this moment that in hindsight seems fundamental, but is something developers sometimes don't feel comfortable doing. 
+
+*Don't guess _why_ something is the way it is. Ask someone _how_ they actually use it*
+
+. I walked up to his desk.
+. I asked him if he had five minutes to answer a question I had.
+. I asked whether he used this area of the UI. 
+
+Once he answered "Yes", the mystery began to unravel quite rapidly. 
+
+As I listened to my colleague, it became crystal clear _why_ the `Zones` list was in that part of the interface, how it was used to set `Limits`, and why those `Limits` may have evolved into something no longer accurate in the UI.
+Another crucial piece of information was that the `Limits` functioned more like label metadata for events. The information about the limits were not actually stored in the system itself, but were part of the SME's departmental Knowledgebase.
+
+After getting a copy of the limits emailed to me with no more coersion than "Could I get a copy of those, please? It would help me tremendously!", I quite literaly ran upstairs and told my developers what I just learned verbally. 
+The elation I felt right at that moment—being on the verge of bridging the knowledge gap—is something I never tire of as a Technical Writer.
+
+As I discovered, some assumptions about how `Zones` incorrectly related to arbitrary geographical locations had been made in another project, but as I began explaining the relationship was actually just labels for `Limits` based on the limits document, you could see them shaking their heads in disbelief that no one had asked _how_ rather than _why_.
+Based on this information, minor architectural changes were made to a narrow set of the system to reflect the newly-learned nomenclature and behaviour of these fields in the UI, and how they affected the backend systems linked to them. 
+
+My advice to any Technical Writer wanting to make a difference is simple: be that person that can approach _anyone_ and ask _anything_.
+The culture of the organisation may affect your success with _being Switzerland_, but the results _have their advantages_ and are worth striving to achieve.
+

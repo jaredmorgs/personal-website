@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "RAML for managing the API lifecycle"
+categories: [Tech Writing]
+tags: [tech writing, API, RAML, podcasts]
+image: assets/images/covers/ideas.jpg
+description: "Use RESTful API Modeling Language to help the business agree on how an API will work."
+#featured: true
+#hidden: true
+#rating: 4.5
+---
+
+I've already talked about Tom Johnson's podcast series _I'd Rather Be Writing_, where he shares his thoughts and experiences about writing API documentation in the burgeoning San Francisco technology and start-up scene.
+
+On a http://idratherbewriting.com/2015/10/12/spec-driven-design-podcast-michael-stowe/[recent podcast], Tom talked with Michael Stowe, who wrote _Undisturbed REST: The guide to designing the perfect API_.
+
+They introduced the concept of the RESTful API Modeling Langage (RAML), which you can read more about on http://raml.org/
+
+What makes RAML worth considering is that it is actually a full API lifecycle tool. 
+It lets you design your API design without actually coding anything, but also create a fully functional mock for customers, partners, or internal engineers to review and build from.
+
+If used by the whole organisation, you can avoid a lot of technical debt by getting all parties to agree on the design of the API *before* you task any developers with actually writing the endpoints. 
+
+The advantage for documentarians, is that RAML also has our back's covered. 
+Because documentation is a crucial part of the API lifecycle, writing the spec for the API from the start bascially means that it is documented.
+
+If you are starting out with API technology in your company, consider adopting RAML to control the API lifecycle.

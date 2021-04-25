@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Ways to reduce paper reliance through technology"
+categories: [Ideas]
+tags: [environment, process, android, google keep]
+image: assets/images/covers/ideas.jpg
+description: "Get rid of unnecessary paper and use technology to your advantage and for the environment"
+#featured: true
+#hidden: true
+#rating: 4.5
+---
+
+I read a blog post about http://unclutterer.com/2010/11/30/identifying-bad-processes/[Identifying Bad
+Processes] which suggested that:
+
+[quote,unclutterer.com]
+...is your purse or wallet overflowing with receipts? Receipt clutter
+is almost always caused by either not having a process for handling
+receipts or having a process you don’t use because the method is
+inconvenient, poorly designed, or not the best process for your
+needs...
+
+It got me thinking about why we have so many receipts cluttering up our
+wallets and purses.  Sure, there are some receipts that you simply must
+keep for proof of purchase, or warranty purposes.  But then there are
+those redundant receipts that vendors seem to give you (often without
+asking if you actually *want* a receipt to start with).
+
+For example, I used to always select "printed receipt" to see my bank
+balance from an ATM. But as soon as I viewed the balance, I posted it
+through the slot in the metal "Receipts" bin.  From the state of the overstuffed
+receipts bin, I'd hazard a guess that most of us do the same. After
+seeing the mess of receipts poking out of the bin, I made a conscious
+decision to select "balance displayed on screen" instead.  One less
+thing to put in the wallet.
+
+Another thing that usually hangs around in my wallet is the humble
+shopping list.  Not any more.  Those of us with smartphones have no
+excuse for using paper lists anymore.
+
+https://play.google.com/store/apps/details?id=com.google.android.keep[Google Keep]
+now features a Share List option where you can collaborate on lists with other people: lists like your Shopping List. You can even run separate lists for different supermarkets or chain stores if you know an item can only be purchased from one shop. And when you pass the shop, you can choose whether Google Keep notifies you with a geo-fence notification. Tick off the items as you take them off the shelf and you won't have to carry a pen with you either. 
+
+How about when you need to collect an item that requires a reference
+number?  Put it in your phone as a Google Keep item, or just in the notepad on
+your device.  No need to use a sticky note that is only going to become
+wedged in your wallet or purse and stick to stuff.
+
+A quick twitter poll uncovered a number of other excellent solutions to
+reduce your wallet bloat:
+
+- Buying lunch with EFTPOS; you aren't going to return your sandwich,
+  so you don't need a receipt.
+- Buying fuel from the petrol station; the fuel is in your car, you
+  can't return it.
+- Printing out online movie tickets; just make a calendar appointment
+  in your phone for the movie time and date, and put the reference
+  number in the appointment as well.
+- Receipts for Taxation purposes; in Australia, the ATO only requires
+  a bank statement for taxation http://law.ato.gov.au/atolaw/view.htm?docid=PSR/PS20057/NAT/ATO/00001[proof of purchase].
+- Receipts for warranty purposes: scan them and digitally file them in DropBox, Copy, or Google Drive. I guarantee they will be easier to find digitally than rifling through a paper-based system. And they won't fade!
+
+
+What other ways have you found to reduce your wallet bloat?

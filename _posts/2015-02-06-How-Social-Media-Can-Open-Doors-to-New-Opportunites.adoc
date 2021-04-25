@@ -1,0 +1,86 @@
+---
+layout: post
+title:  "How social media can open doors to new opportunities"
+categories: [Tech Writing]
+tags: [hubpress, markdown, asciidoc, github pages]
+image: assets/images/covers/ideas.jpg
+description: "Using social media to post about your passions and problems may get you surprising results"
+#featured: true
+#hidden: true
+#rating: 4.5
+---
+
+Out of the blue, I received a tweet from https://mobile.twitter.com/anthonny_q[Anthonny Quérouil]. 
+He suggested that if I liked AsciiDoc, I should check out HubPress. 
+I'm so thankful he reached out to me, because it started me down a fantastic journey of open source collaboration and gave me the ability to write amazingly detailed blog posts directly on my tablet.
+
+== GitHub blogging is great! but...
+
+If you love writing about technology, and love to make complex instructions with code samples and detailed tables, you would have already found that you have to make a fair few sacrifices with Markdown posts. 
+
+Markdown is natively supported by GitHub Pages because it is supported GitHub wide in all comments, issues, and Readme files. 
+So is AsciiDoc, but not natively on GitHub Page generated blogs. 
+I've done my best to get this changed by lobbying for AsciiDoc support, but I'm not holding my breath.
+
+== Enter AsciiDoc (or more accurately, AsciiDoctor)
+
+AsciiDoctor -- which was championed by former Red Hat alumni https://github.com/mojavelinux[Dan Allen] -- builds upon the already fantastic http://asciidoc.org/[AsciiDoc] by adding a toolchain and various compatibility layers. 
+
+How this affects blog writers is that you don't have to kludge your way around the deficiencies of Markdown, and you can get on with the task of writing rich blog posts with complex procedures and code samples.
+
+=== How I got involved in AsciiDoctor
+
+I became interested in AsciiDoctor recently when the AsciiDoctor team announced they were successful in getting the https://github.com/asciidoctor/jekyll-asciidoc[jekyll-asciidoc plug-in] listed on the supported Converter list on the http://jekyllrb.com/docs/plugins/[Jekyll Plugins] page.
+
+I started collaborating in a docs capacity with the team on a forkable https://github.com/asciidoctor/jekyll-asciidoc-quickstart[jekyll-asciidoctor Quickstart Blog] repo that used JenkinsCI to enable bloggers to initially configure a Jekyll blog with AsciiDoctor support. Once configured, you could set up the JenkinsCI build server to intercept commits on the `gh-pages` branch of the repository. I was just about to start configuring the repository, and installing all the Ruby dependencies so I could generate a Travis CI key. 
+
+== Enter HubPress
+
+When Anthonny contacted me on twitter, he introduced me to the HubPress project. Being a Technical Writer for Red Hat, I noted that the project README was a little underdone. 
+
+So in true open source spirit, I took it upon myself to do a major Pull Request (PR) on the content (only my second PR after contributing to the AsciiDoctor quickstart). 
+
+I used the basic config info initially to help me install the system. As I noticed deficiencies, I improved them. After I was happy with the way the docs looked, I created a PR and let Anthonny know. 
+
+== Help out an open source project today
+
+The thing with Open Source Projects is that they need writers. 
+And if you even do minor tweaks to their docs, they will be so thankful. 
+
+You don't need to be a Developer to work on a software project. 
+Do you speak another language? 
+Can you write Documentation? 
+Are you great at video production? 
+Are you trained or specialise in UX design?
+
+All these skills are incredibly important to a product that is trying to make the best impression to it's user base, and increase adoption. 
+
+== About HubPress
+
+=== Why HubPress rocks
+
+http://hubpress.io/[HubPress] lets you free yourself from heavy configuration, provides a real-time editing environment, rich social media configuration, and a variety of baked-in styles. 
+But most importantly, it is one of the only forkable blog offerings that has made the wise decision to use the https://github.com/asciidoctor/asciidoctor.js[AsciiDoctor ] Javascript port to provide tech bloggers far greater control over how they structure blog posts.
+
+HubPress is different to other Jekyll GitHub Pages Blogging solutions:
+
+* No PC required
+
+** Blog on your tablet or phablet.
+
+** No software to install.
+
+** An internet connection is all you need.
+
+* No Gemfiles to install and configure.
+
+* No Git commands to master.
+
+* If you host your images, you can even direct link to them and not have to commit to Git.
+
+=== Shut up and take my money
+
+Well, you won't need to shell out any clams. 
+HubPress is Free!
+
+Head over to https://github.com/HubPress/hubpress.io/blob/master/README.adoc[the Docs] and learn how to set up your blog in only a few clicks.
