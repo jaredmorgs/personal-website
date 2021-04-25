@@ -36,7 +36,7 @@ paginate_path: '/page:num/'
 asciidoctor:
   attributes:
     imagesdir: /assets/images
-    - experimental
+    experimental:
 markdown: kramdown
 kramdown:
   input: GFM
