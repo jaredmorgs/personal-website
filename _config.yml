@@ -1,10 +1,11 @@
 name: Stuff and Things
-description: 'Jared Morgan's blog about interesting stuff and random things.'
+title: Stuff and Things
+description: 'Jared Morgan's blog about interesting stuff and random things'
 logo: assets/images/jared.png
 favicon: assets/images/favicon.ico
 baseurl: ''
 google_analytics: UA-58317734-1
-disqus: jaredmorgs.disqus.com
+disqus: jaredmorgs
 include:
   - _pages
 permalink: '/:title/'
@@ -52,4 +53,4 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-url: 'https://www.jaredleonmorgan.net'
+url: ''
