@@ -1,0 +1,31 @@
+---
+layout: page
+title: About me
+permalink: /about
+comments: false
+---
+
+image::jared.png[Head shot of Jared Morgan,200,200,float="left",align="center"]
+
+G'day, I'm Jared. Thanks for visiting my site.
+
+I'm a Technical Writer working in Brisbane, Australia.
+When I'm not writing product documentation I'm either playing VR games on Quest 2, fixing pinball machines, or geeking out on interesting stuff and things.
+
+This blog is designed to let me share that stuff and those things with you through social media. 
+Sometimes a longer form article is better than Twitter conversations, right?
+
+== Social media
+
+You can find me with the username `jaredmorgs` on most social media platforms. 
+
+I am active on https://twitter.com/jaredmorgs[Twitter], https://www.instagram.com/jaredmorgs/[Instagram] and https://www.linkedin.com/in/jaredmorgs/[LinkedIn]
+
+== Podcasts
+
+I contribute to a couple of podcasts about topics dear to my heart:
+
+https://podcast.writethedocs.org/[Write the Docs Podcast^]:: WTD Podcasts features discussions related to software documentation from members of the Write the Docs community, usually featuring a new guest each time in addition to the regular hosts. 
+
+https://www.blahcadepinball.com/[BlahCade Pinball Podcast^]:: BlahCade Pinball Podcast is the premier digital pinball podcast, covering commercial digital pinball from the world's best designers. 
+New episodes every fortnight.
