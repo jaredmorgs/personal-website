@@ -3,7 +3,7 @@ layout: post
 title:  "Package messages FAILED when using fedora fedup system upgrade tool"
 categories: [Open Source]
 tags: [fedora, fedup, FAILED]
-image: assets/images//assets/images/covers/open-source.jpg
+image: assets/images/covers/open-source.jpg
 description: "Are you 'fedup' with unhelpful failed package message when upgrading fedora? Try this tip."
 #featured: true
 #hidden: true
