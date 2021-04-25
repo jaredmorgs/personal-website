@@ -1,13 +1,11 @@
-name: Mediumish
-title: Mediumish
-description: 'Jekyll template, Medium styled, free for bloggers.'
-logo: assets/images/logo.png
-favicon: assets/images/logo.png
+name: Jared Morgan's Blog
+title: Jared Leon Morgan
+description: 'Tech Writer | Podcaster | Open source contributor | Pinball junkie'
+logo: assets/images/jared.png
+favicon: assets/images/jared.png
 baseurl: ''
-google_analytics: UA-46278016-1
-disqus: demowebsite
-mailchimp-list: >-
-  https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b
+google_analytics: UA-58317734-1
+disqus: jaredmorgs.disqus.com
 include:
   - _pages
 permalink: '/:title/'
