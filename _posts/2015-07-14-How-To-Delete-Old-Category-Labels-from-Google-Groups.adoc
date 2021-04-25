@@ -9,6 +9,7 @@ description: "Deleting categories from Google Groups shouldn't be this tricky, b
 #hidden: true
 #rating: 4.5
 ---
+:experimental:
 
 Something that has been puzzling me for a while is how Tags and Categories labels are displayed in Google Groups. 
 I've had a breakthrough today with deleting a whole stack of Category labels which were impossible to delete through the Tags menu.
