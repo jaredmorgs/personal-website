@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Using SourceTree to access GitLab"
-categories: [Tech Writing]
+categories: [Technology]
 #tags: [open, source, bitbucket, stash, gitlab, vcs]
 image: assets/images/covers/open_source.jpg
 description: "You can use GitLab with SourceTree but you need to use SSH"
-featured: true
+#featured: true
 #hidden: true
 #rating: 4.5
 ---

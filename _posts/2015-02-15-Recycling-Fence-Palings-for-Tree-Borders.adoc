@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Recycling fence palings for tree borders"
-categories: [Tech Writing]
+categories: [Interests]
 tags: [reclaim, reuse, recycle, garden borders]
 image: assets/images/covers/ideas.jpg
 description: "When you're on a tight budget consider using recycled or reclaimed items to keep the costs minimal."

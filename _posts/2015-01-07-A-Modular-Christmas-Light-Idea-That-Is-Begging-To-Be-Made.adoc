@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A modular christmas lights idea that is begging to be made"
-categories: [Interests]
+categories: [Technology]
 tags: [led, christmas]
 image: assets/images/covers/ideas.jpg
 description: "Christmas light design hasn't changed in decades. It's time for a more modular approach."

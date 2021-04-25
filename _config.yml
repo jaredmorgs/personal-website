@@ -1,8 +1,8 @@
-name: Jared Morgan's Blog
-title: Jared Leon Morgan
-description: 'Tech Writer | Podcaster | Open source contributor | Pinball junkie'
+name: Stuff and Things
+title: A blog by Jared Morgan
+description: 'Tech Writer | Podcaster | Pinball fan | VR junkie'
 logo: assets/images/jared.png
-favicon: assets/images/jared.png
+favicon: assets/images/favicon.ico
 baseurl: ''
 google_analytics: UA-58317734-1
 disqus: jaredmorgs.disqus.com
@@ -13,7 +13,7 @@ authors:
   jared:
     name: Jared Morgan
     site: 'https://jaredleonmorgan.net'
-    avatar: assets/images/jared.jpg
+    avatar: assets/images/jared.png
     bio: >-
       Technical writer, product person, VR junkie.
     email: jaredleonmorgan@gmail.com
@@ -53,4 +53,4 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-url: ''
+url: 'https://www.jaredleonmorgan.net'

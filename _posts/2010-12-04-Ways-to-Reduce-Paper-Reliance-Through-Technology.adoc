@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ways to reduce paper reliance through technology"
-categories: [Ideas]
+categories: [Interests]
 tags: [environment, process, android, google keep]
 image: assets/images/covers/ideas.jpg
 description: "Get rid of unnecessary paper and use technology to your advantage and for the environment"

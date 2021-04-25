@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to delete old category labels from Google Groups"
-categories: [Tech Writing]
+categories: [Technology]
 tags: [google groups, labels, tags, categories, delete]
 image: assets/images/covers/ideas.jpg
 description: "Deleting categories from Google Groups shouldn't be this tricky, but it is."
