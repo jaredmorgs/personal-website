@@ -6,10 +6,9 @@ comments: false
 ---
 
 G'day, I'm Jared. 
-
-image::jared.png[Head shot of Jared Morgan,200,float="left"]
-
 I'm a Technical Writer working in Brisbane, Australia.
+
+image::jared.png[Head shot of Jared Morgan,200]
 
 When I'm not writing product documentation I'm either playing VR games on Quest 2, fixing pinball machines, or geeking out on interesting stuff and things.
 
