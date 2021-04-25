@@ -85,7 +85,7 @@ To clone a GitLab repository using SourceTree:
 
 . Load https://gitlab.com in your browser. 
 
-. Navigate to the GitLab repository you want to clone.
+. Navigate to the GitLab repository you want to clone. 
 
 . Copy the `SSH` path shown in the screen.
 

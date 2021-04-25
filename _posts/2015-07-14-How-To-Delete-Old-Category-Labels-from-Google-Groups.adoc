@@ -21,7 +21,7 @@ You originally enabled Categories in Google Groups, but found they didn't work f
 You switched over to Tags, and created some custom labels for the tags. 
 But the old Category labels are present in your Tags page, and you can't delete them. 
 
-Every time you click on the `[X]` button beside each Category label, then Save the page, the labels come back again. 
+Every time you click on the btn:[[X]] button beside each Category label, then Save the page, the labels come back again. 
 
 "WTF Google", you curse. 
 
@@ -34,15 +34,15 @@ And the Google Group help gives you absolutely _no clue_ about the correct metho
 
 To delete category labels from Google Groups:
 
-. Open the Google Group managment console.
+. Open the Google Group managment console. 
 
 . Open the menu:Settings[Categories] view.
 
-. Delete *all* the old Category labels by clicking the `[X]` button beside each Category.
+. Delete *all* the old Category labels by clicking btn:[[X]] beside each Category.
 
 . Open the menu:Settings[Tags] view.
 
-. Delete the unwanted Category labels by clicking the '[X]` button beside each Tag label.
+. Delete the unwanted Category labels by clicking the btn:[[X]] button beside each Tag label.
 
 == Additional Info
 
