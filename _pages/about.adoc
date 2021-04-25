@@ -5,13 +5,11 @@ permalink: /about
 comments: false
 ---
 
-image::jared.png[Head shot of Jared Morgan,200,200,float="left",align="center"]
+image::jared.png[Head shot of Jared Morgan,200,float="left",align="center"]
 
 G'day, I'm Jared. Thanks for visiting my site.
-
 I'm a Technical Writer working in Brisbane, Australia.
 When I'm not writing product documentation I'm either playing VR games on Quest 2, fixing pinball machines, or geeking out on interesting stuff and things.
-
 This blog is designed to let me share that stuff and those things with you through social media. 
 Sometimes a longer form article is better than Twitter conversations, right?
 
