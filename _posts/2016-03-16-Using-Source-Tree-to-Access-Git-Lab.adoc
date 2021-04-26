@@ -22,13 +22,25 @@ toc::[]
 The basic process to follow is outlined below:
 
 * Generate an SSH Public Key.
+
 * Apply the key to your GitLab user profile.
+
 * Use the "Clone from URL" SourceTree feature to check out repositories from SourceTree using SSH.
 
 For some folks, that might be enough of a clue to get them on the right path. 
 If this has not helped you, read on for step-by-step instructions.
 
+=== Add GitLab to SourceTree accounts
+
+You can use GitLab CE, GitLab.com, and GitLab Enterprise in SourceTree as an account type.
+
+For this guide, you will create an account profile in SourceTree for GitLab.com using a private token.
+
+Private tokens let you connect multiple apps (such as multiple SourceTree apps across user profiles).
+
 === Generate an SSH key
+
+SourceTree 
 
 GitLab offers SSH as a method to handle authentication between the master and remote repositories.
 The advantage of SSH is that you do not need to provide a User Name or Password when you commit work.
@@ -36,10 +48,24 @@ The advantage of SSH is that you do not need to provide a User Name or Password 
 To push content to GitLab using SourceTree, you will need to generate a SSH Public Key using the command-line on your Windows, Mac, or Linux PC.
 The following procedures and references will help you achieve this.
 
-.Log onto GitLab UI
-. Log onto GitLab.
-. In the left pane, click `Profile Settings`.
-. Click `SSH Keys`.
+==== Create a personal access token
+
+. Sign in to GitLab.
+
+. In the top-right corner, select your avatar.
+
+. Select Edit profile.
+
+. In the left sidebar, select Access Tokens.
+
+. Choose a name and optional expiry date for the token.
+
+. Choose the desired scopes.
+
+. Select Create personal access token.
+
+Save the personal access token somewhere safe. If you navigate away or refresh your page, and you did not save the token, you must create a new one.
+
 
 ==== Retrieve an existing public key
 
