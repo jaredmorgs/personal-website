@@ -3,7 +3,7 @@ layout: post
 title:  "Down the rabbit hole with Mr Whippy"
 categories: [Interests]
 tags: [ice cream, mr whippy, greensleeves, ice cream truck]
-image: assets/images/covers/softserve.jpg
+image: assets/images/covers/mr-whippy-aus.jpeg
 #featured: true
 #hidden: true
 #rating: 4.5
