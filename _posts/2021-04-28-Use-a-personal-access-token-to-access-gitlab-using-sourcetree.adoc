@@ -2,9 +2,9 @@
 layout: post
 title:  "Use a personal access token to set up a GitLab.com account profile in SourceTree"
 categories: [Technology]
-tags: [git, gitlab, sourcetree, bitbucket, dvcs, token, personal, access]
+tags: [git, gitlab, sourcetree, bitbucket, token]
 image: assets/images/gitlab-token-settings.png
-featured: true
+#featured: true
 #hidden: true
 #rating: 4.5
 ---
