@@ -4,7 +4,7 @@ title: "Use a personal access token to access GitLab using SourceTree"
 categories: [Technology]
 tags: [git, gitlab, sourcetree, bitbucket, token]
 image: assets/images/gitlab-token-settings.png
-#featured: true
+featured: true
 #hidden: true
 #rating: 4.5
 ---
