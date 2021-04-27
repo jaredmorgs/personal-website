@@ -71,13 +71,11 @@ image::gitlab-token-settings.png[Screenshot of GitLab personal access token sett
 + 
 image::gitlab-personal-access-token-created.png[Screenshot of the created token, with details blurred]
 
-LiccYqNyY6xeGaKwg8i2
-
 +
 IMPORTANT: This step is the last time you will have access to the personal access token.
 Make sure you save it now before continuing.
 
-== Use the personal access token to authenticate to GitLab through SourceTree Desktop
+== Configure the SourceTree GitLab.com account profile
 
 Now you have created and saved the personal access token, you can configure SourceTree with this token and access your GitLab.com repositories.
 
@@ -104,7 +102,7 @@ Protocol:: Select `HTTPS` from the list.
 
 == Test the GitLab account by cloning a GitLab repository
 
-You can now clone repositories from the GitLab.com remote host.
+To clone repositories from the GitLab.com remote host:
 
 . In SourceTree, click the btn:[Remote] option.
 
@@ -112,7 +110,7 @@ You can now clone repositories from the GitLab.com remote host.
 
 . Click the *Clone* link for the repository you want to clone.
 
-. Check the *Clone the repository* modal displays the `https://` prefix in the Source URL.
+. Check that the *Clone a repository* modal displays the `https://` prefix in the *Source URL* field.
 
 +
 image::gitlab-clone-https.png[Screenshot of the clone repository modal showing https protocol]
