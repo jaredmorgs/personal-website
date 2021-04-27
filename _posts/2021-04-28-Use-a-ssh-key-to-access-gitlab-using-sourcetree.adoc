@@ -2,9 +2,8 @@
 layout: post
 title:  "Using SourceTree to access GitLab through SSH"
 categories: [Technology]
-#tags: [open, source, bitbucket, stash, gitlab, vcs]
+tags: [git, gitlab, sourcetree, bitbucket, dvcs, ssh]
 image: assets/images/covers/open-source.jpg
-description: "You can use GitLab with SourceTree but you need to use SSH"
 #featured: true
 #hidden: true
 #rating: 4.5
