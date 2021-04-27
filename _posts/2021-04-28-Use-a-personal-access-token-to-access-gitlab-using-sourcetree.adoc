@@ -17,7 +17,7 @@ This tutorial shows you how to set up SourceTree with GitLab.com using a persona
 
 This option is excellent if you want to access your GitLab.com repositories on your work and personal PC and don't want to bother managing SSH keys across PCs.
 
-IMPORTANT: If your GitLab.com account uses Two-factor Authentication (2FA) you *must* use a personal access token as your password to connect over HTTPS.
+If your GitLab.com account uses Two-factor Authentication (2FA) you *must* use a personal access token as your password to clone repositories over HTTPS to your local PC environment.
 
 == Before you start
 
