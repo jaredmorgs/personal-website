@@ -4,7 +4,6 @@ title:  "Being Switzerland Has Its Advantages"
 categories: [Tech Writing]
 #tags: [red, yellow]
 image: assets/images/covers/ideas.jpg
-description: "Becoming the Switzerland of your Organisation may evolve your Technical Writing career into an invaluable interface layer between departments."
 #featured: true
 #hidden: true
 #rating: 4.5
