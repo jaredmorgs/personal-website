@@ -34,6 +34,7 @@ jekyll-archives:
 paginate: 6
 paginate_path: '/page:num/'
 asciidoctor:
+  safe: safe
   attributes:
     imagesdir: /assets/images
 markdown: kramdown
@@ -54,3 +55,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
 url: ''
+whitelist:
+- jekyll-asciidoc

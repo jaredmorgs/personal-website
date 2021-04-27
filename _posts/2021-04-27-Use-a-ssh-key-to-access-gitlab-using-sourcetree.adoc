@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using SourceTree to access GitLab through SSH"
+title: "Use a SSH key to access GitLab through SourceTree"
 categories: [Technology]
 tags: [git, gitlab, sourcetree, bitbucket, dvcs, ssh]
 image: assets/images/covers/open-source.jpg
@@ -14,7 +14,7 @@ If you want to make the switch to https://gitlab.com[GitLab.com] from GitHub, or
 
 SourceTree offers two ways of connnecting your GitLab.com account to SourceTree:
 
-* xref:2021-04-28-Use-a-personal-access-token-to-access-gitlab-using-sourcetree.adoc[Configure a personal access token] to access GitLab.com over HTTPS.
+* Configure a personal access token to access GitLab.com over HTTPS.
 
 * Configure a https://en.wikipedia.org/wiki/Secure_Shell_Protocol[Secure Shell (SSH)^] key, as described in this blog post.
 
