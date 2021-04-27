@@ -4,20 +4,21 @@ title:  "Down the rabbit hole with Mr Whippy"
 categories: [Interests]
 tags: [ice cream, mr whippy, greensleeves, ice cream truck]
 image: assets/images/covers/softserve.jpg
-description: "What started with hearing an odd ice cream truck tune playing turned into a fascinating history lesson about soft serve ice cream in Austraila."
 #featured: true
 #hidden: true
 #rating: 4.5
 ---
 
-An ice cream van decided to roll down our street today, playing some indecipherable tune that wasn't Greensleeves. 
+What started with hearing an odd ice cream truck tune playing turned into a fascinating history lesson about soft serve ice cream in Austraila.
+
+An ice cream van decided to roll down our street, playing some indecipherable tune that wasn't Greensleeves. 
 This started me down an interesting internet trip about the history of Mr Whippy and Mobile Ice Cream vans in Australia.
 
 I learned that Mr Whippy was introduced into Australia in 1962 after its incredible success in the UK in 1959. 
 A fleet of custom built Commer Karrier vans--fitted with the now synonymous Greensleeves chime box--were shipped out from Southampton in the UK to begin operating in Sydney first, and subsequently all major regions of Australia. 
 The vans were individually numbered as part of the franchise operation.
 
-image::http://mrwhippyherveybay.com/images/Mr.Whippys-at-Myers-2.gif[Image of the first Mr Whippy vans in Australia]
+image::mr-whippy-aus.jpeg[Image of the first Mr Whippy vans in Australia]
 
 The history behind the music Ice Cream Vans played was the main reason why I started to search for information. 
 It turns out that each country has different tunes they play. 
@@ -35,7 +36,8 @@ The racist lyrics that were unfortunately attached to this tune are no longer co
 http://en.m.wikipedia.org/wiki/Ice_cream_van#In_Australia_and_New_Zealand[Wikipedia] is great if you want to learn about the history of Ice Cream vans worldwide, and the tunes they play. 
 You can really go down the internet rabbit hole if you read the history of each song, so click if you dare…
 
-http://mrwhippyherveybay.com/History.html[Mr Whippy Hervey Bay's] History page is a great place to learn more about how Mr Whippy started in Australia and how the legacy is perpetuated by the Staff family of Hervey Bay, Queensland. 
+https://australianfoodtimeline.com.au/mr-whippy-arrives-in-australia/[The Australian Food Time website] is a great place to learn more about how Mr Whippy started in Australia and how the legacy is perpetuated by the Staff family of Hervey Bay, Queensland. 
+
 It's great to see that their original vans still use the original (yes, the 1960's original) Italian Carpigiani ice cream machinery. That would be no mean feat to keep working. 
 The Staff family even contributed to the book by Steve Tillyer entitled *The Mr. Whippy Story*.
 
