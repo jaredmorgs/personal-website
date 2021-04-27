@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using SourceTree to access GitLab through SSH"
+title: "Use a SSH key to access GitLab through SourceTree"
 categories: [Technology]
 tags: [git, gitlab, sourcetree, bitbucket, dvcs, ssh]
 image: assets/images/covers/open-source.jpg
