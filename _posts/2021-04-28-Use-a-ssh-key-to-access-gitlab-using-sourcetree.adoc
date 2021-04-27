@@ -40,7 +40,7 @@ To push content to GitLab using SourceTree, you will need to generate a SSH Publ
 
 *Before you go any further, SourceTree 3.0 can manage this process for you.*
 
-When you add a GitLab.com account to SourceTree you can hold down the kbd:[alt] (Windows) or kbd:[opt] (macOS) keys to switch the btn:[Copy to clipboard] button to the btn:[Generate key] function. 
+When you add a GitLab.com account to SourceTree you can hold down the kbd:[Alt] (Windows) or kbd:[Option] (macOS) keys to switch the btn:[Copy to clipboard] button to the btn:[Generate key] function. 
 SourceTree will guide you through the process of generating a key and manage the entire process for you in the app.
 
 If you prefer to manage your SSH keys outside of SourceTree, the following procedures and references will help you achieve this.
@@ -118,12 +118,14 @@ The repository is cloned using the SSH protocol and now appears in the Local tab
 
 == Bonus: Update local legacy repositories to point To GitLab repositories in SourceTree
 
-If you are migrating all your repositories over from another VCS to GitLab, chances are you have all the old repositories checked-out to your PC already. 
+If you are migrating all your repositories over from another VCS to GitLab, chances are you have all the old repositories checked-out locally already. 
 
 You don't need to delete them all and check them out again through GitLab. 
-Update the remote origin to point to the new GitLab SSH path and you'll be back in business.
+Update the remote origin to point to the new GitLab SSH path and you can continue seamlessly.
 
-To change upstream repository information in SourceTree:
+IMPORTANT: Make sure all your work is pushed to your remote repositories before doing this part of the tutorial.
+
+To change remote repository information in SourceTree:
 
 . Load https://gitlab.com in your browser.
 
