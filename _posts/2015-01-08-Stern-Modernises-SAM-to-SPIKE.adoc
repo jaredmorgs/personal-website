@@ -4,17 +4,12 @@ title:  "Stern modernises SAM to SPIKE"
 categories: [Interests]
 tags: [pinball, spike, stern, mpu]
 image: assets/images/covers/pinball.jpg
-description: "Moving pinball to a distributed computing model"
 #featured: true
 #hidden: true
 #rating: 4.5
 ---
-= Stern Modernises SAM to SPIKE
-:hp-tags: pinball, SPIKE, Stern, MPU
-:hp-image: covers/pinball.jpg
-:published_at: 2015-01-08
 
-== New pinball controller for a new era of pinball
+== Moving pinball to a distibuted computing model
 
 I'm very excited to learn that Stern Pinball has modernized their SAM pinball controller with a new system named SPIKE. 
 The new system was announced along-side Stern's latest pinball offering *Wrestlemania*. 
@@ -47,12 +42,12 @@ The player features include a headphone jack, proper three channel sound, LEDs i
 
 https://pinside.com/pinball/forum/topic/sterns-new-platform-titled-spike[The PinSide Forum] has some interesting perspectives on the new system: 
 
-- Apparently the very coldly-received 2012 http://www.ipdb.org/machine.cgi?id=5861[Transformers The Pin] from Stern was basically "SPIKE Beta". I have a new appreciation for it, but only for the fact it was a beta testing platform. ;)
+- Apparently the very coldly-received 2012 https://www.ipdb.org/machine.cgi?id=5861[Transformers The Pin] from Stern was basically "SPIKE Beta". I have a new appreciation for it, but only for the fact it was a beta testing platform. ;)
 - This technology was also on location test at Modern Pinball NYC it seems. The AC/CD "Let There Be Rock" LE seemed to contain the SPIKE system in the backbox, a PinSide poster revealed in the thread, backed up with pics.
 - Game code is on a Compact MMC.
 - Dual-wound flippers. With both a Wind and Hold circuit, Stern catches up with Bally/Williams, who used this technology until they closed their pinball division in 2000.
 - The button battery on the main backbox board is mounted at right-angles to the board, which will prevent a common issue with electrolyte damage to board components from leaky batteries. Personally, I don't know why they just didn't go with an adapted Flash RAM board which you can retrofit onto older games.
-- Debate about the protocol: whether it is http://en.wikipedia.org/wiki/CAN_bus[Controller Area Network] (CAN) or http://en.wikipedia.org/wiki/RS-485[RS-485]
+- Debate about the protocol: whether it is https://en.wikipedia.org/wiki/CAN_bus[Controller Area Network] (CAN) or https://en.wikipedia.org/wiki/RS-485[RS-485]
 - https://pinside.com/pinball/forum/topic/sterns-new-platform-titled-spike/page/5#post-2159596[John_I] gives a great summary of the technology from an electronic engineer's perspective.
 - John_I confirmed the large driver board use good old "through hole" parts (that is, component with legs that go through holes in the PCB) rather than Surface Mount parts. This means that PinTechs can still fix boards rather than having to replace them. But, honestly, a good electronics engineer could do repairs to surface mount boards anyhow.
 

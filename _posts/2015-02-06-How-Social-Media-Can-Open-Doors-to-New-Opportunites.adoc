@@ -4,11 +4,12 @@ title:  "How social media can open doors to new opportunities"
 categories: [Tech Writing]
 tags: [hubpress, markdown, asciidoc, github pages]
 image: assets/images/covers/ideas.jpg
-description: "Using social media to post about your passions and problems may get you surprising results"
 #featured: true
 #hidden: true
 #rating: 4.5
 ---
+
+Using social media to post about your passions and problems may get you surprising results.
 
 Out of the blue, I received a tweet from https://mobile.twitter.com/anthonny_q[Anthonny Quérouil]. 
 He suggested that if I liked AsciiDoc, I should check out HubPress. 
@@ -24,13 +25,13 @@ I've done my best to get this changed by lobbying for AsciiDoc support, but I'm 
 
 == Enter AsciiDoc (or more accurately, AsciiDoctor)
 
-AsciiDoctor -- which was championed by former Red Hat alumni https://github.com/mojavelinux[Dan Allen] -- builds upon the already fantastic http://asciidoc.org/[AsciiDoc] by adding a toolchain and various compatibility layers. 
+AsciiDoctor -- which was championed by former Red Hat alumni https://github.com/mojavelinux[Dan Allen] -- builds upon the already fantastic https://asciidoc.org/[AsciiDoc] by adding a toolchain and various compatibility layers. 
 
 How this affects blog writers is that you don't have to kludge your way around the deficiencies of Markdown, and you can get on with the task of writing rich blog posts with complex procedures and code samples.
 
 === How I got involved in AsciiDoctor
 
-I became interested in AsciiDoctor recently when the AsciiDoctor team announced they were successful in getting the https://github.com/asciidoctor/jekyll-asciidoc[jekyll-asciidoc plug-in] listed on the supported Converter list on the http://jekyllrb.com/docs/plugins/[Jekyll Plugins] page.
+I became interested in AsciiDoctor recently when the AsciiDoctor team announced they were successful in getting the https://github.com/asciidoctor/jekyll-asciidoc[jekyll-asciidoc plug-in] listed on the supported Converter list on the https://jekyllrb.com/docs/plugins/[Jekyll Plugins] page.
 
 I started collaborating in a docs capacity with the team on a forkable https://github.com/asciidoctor/jekyll-asciidoc-quickstart[jekyll-asciidoctor Quickstart Blog] repo that used JenkinsCI to enable bloggers to initially configure a Jekyll blog with AsciiDoctor support. Once configured, you could set up the JenkinsCI build server to intercept commits on the `gh-pages` branch of the repository. I was just about to start configuring the repository, and installing all the Ruby dependencies so I could generate a Travis CI key. 
 
@@ -59,8 +60,8 @@ All these skills are incredibly important to a product that is trying to make th
 
 === Why HubPress rocks
 
-http://hubpress.io/[HubPress] lets you free yourself from heavy configuration, provides a real-time editing environment, rich social media configuration, and a variety of baked-in styles. 
-But most importantly, it is one of the only forkable blog offerings that has made the wise decision to use the https://github.com/asciidoctor/asciidoctor.js[AsciiDoctor ] Javascript port to provide tech bloggers far greater control over how they structure blog posts.
+https://github.com/HubPress[HubPress] lets you free yourself from heavy configuration, provides a real-time editing environment, rich social media configuration, and a variety of baked-in styles. 
+But most importantly, it is one of the only forkable blog offerings that has made the wise decision to use the https://github.com/asciidoctor/asciidoctor.js[Asciidoctor] Javascript port to provide tech bloggers far greater control over how they structure blog posts.
 
 HubPress is different to other Jekyll GitHub Pages Blogging solutions:
 

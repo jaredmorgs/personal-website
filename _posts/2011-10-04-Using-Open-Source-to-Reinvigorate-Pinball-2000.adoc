@@ -11,9 +11,9 @@ description: "Bring back your Pinball 2000 pinball machine with the strength of 
 ---
 
 I remember when I was restoring pinball machines that I learned a very important lesson about computer repair. 
-I accidentally caused mainboard damage to a http://en.wikipedia.org/wiki/Pinball_2000[Pinball 2000] (Pin2K) game: http://www.ipdb.org/search.pl?any=star+wars&search=Search+Database&searchtype=quick#4458[Star Wars: Episode 1].  
+I accidentally caused mainboard damage to a https://en.wikipedia.org/wiki/Pinball_2000[Pinball 2000] (Pin2K) game: https://www.ipdb.org/search.pl?any=star+wars&search=Search+Database&searchtype=quick#4458[Star Wars: Episode 1].  
 
-It is very easy to do, because the two Molex connectors from the ATX power supply were not http://en.wikipedia.org/wiki/Electrical_connector#Keying[keyed], and you could reverse the ground for power. 
+It is very easy to do, because the two Molex connectors from the ATX power supply were not https://en.wikipedia.org/wiki/Electrical_connector#Keying[keyed], and you could reverse the ground for power. 
 I did this, and took out the power circuit on the mainboard.
 
 This was a *big* problem, because the Pin2K mainboards were a BAT-style PC mainboard (running a Cyrix Media GX CPU which was connected to a Cyrix CX5520 bridge). 
@@ -24,11 +24,11 @@ If the power spike travelled to the PRISM card, you basically had yourself a fan
 
 At the time, the machine was mothballed.
 
-I since discovered that http://www.bigguyspinball.com/index.shtml[Big Guys Pinball] have reverse engineered the Pin2K core, and created some custom boards which can be used to replace damaged Pin2K logic box systems. 
+I since discovered that http://www.bigguyspinball.com/nucorefeatures.shtml[Big Guys Pinball] have reverse engineered the Pin2K core, and created some custom boards which can be used to replace damaged Pin2K logic box systems. 
 
 The new system is called *nucore*.
 
-The great thing is they are using Linux (Ubuntu), and http://en.wikipedia.org/wiki/Commercial_off-the-shelf[COTS] motherboards and Video Cards, to make this system a reality. 
+The great thing is they are using Linux (Ubuntu), and https://en.wikipedia.org/wiki/Commercial_off-the-shelf[COTS] motherboards and Video Cards, to make this system a reality. 
 You can purchase the components separately, or as a plug-and-play system ready for production use.
 
 Hooray for open source, and ingenuity!
@@ -36,7 +36,8 @@ Hooray for open source, and ingenuity!
 *Update*
 
 Unfortunately the Big Guys at Big Guys Pinball ran into a little bit of strife in 2014 during the pinball resurgence. 
-I believe they were kindly asked to discontinue producing these boards because http://www.planetarypinball.com/mm5/merchant.mvc?[Planetary Pinball] had the exclusive rights to reproduce all Bally and Williams parts (including, unfortunately, the Pin2K hardware system). 
+I believe they were kindly asked to discontinue producing these boards because https://www.planetarypinball.com/mm5/merchant.mvc?[Planetary Pinball] had the exclusive rights to reproduce all Bally and Williams parts (including, unfortunately, the Pin2K hardware system). 
 
-To date, I am not aware of any efforts to resume production. 
-This is a real shame, and unless Planetary Pinball get their act together, it may be the final blow to these crippled Pin2K units.
+But the good news is that *nucore* is available again as of 2017.
+It comes in the form of a http://www.bigguyspinball.com/community/viewtopic.php?f=17&t=1179[Debian package] and there is most definitely "some assembly required".
+But where there's Linux, there's hope.
