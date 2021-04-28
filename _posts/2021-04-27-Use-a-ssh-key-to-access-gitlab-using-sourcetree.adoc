@@ -106,7 +106,7 @@ Username:: Type your username (not your email) into the field.
 Password:: Type your password into the filed. 
 
 +
-NOTE: If you are using Two-factor Authentication on your GitLab.com account, read xref:../2021-04-28-Use-a-personal-access-token-to-access-gitlab-using-sourcetree.adoc[my April 2021 blog post about SourceTree and GitLab.com] for help with creating a personal access token. 
+NOTE: If you are using Two-factor Authentication on your GitLab.com account, read link:../#/2021-04-28-Use-a-personal-access-token-to-access-gitlab-using-sourcetree.adoc[my April 2021 blog post about SourceTree and GitLab.com] for help with creating a personal access token. 
 
 Protocol:: Select `SSH` from the list.
 
