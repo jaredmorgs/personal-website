@@ -32,14 +32,14 @@ There might be some good quality timber you can use there.
 I did actually fork our for some new timber. 
 The spacers required for the job were cut at the cutting station at Bunnings. 
 
-image::http://jaredmorgs.github.io/images/Tree_Border_Palings_Spacers.jpg[title="Spacers", width="300, height="500"]
+image::Tree_Border_Palings_Spacers.jpg[title="Spacers", width="300, height="500"]
 
 I have to say I could have probably done a better job myself regarding size consistency, but at 12 blocks to be cut, paying 50c a cut was worth it. 
 And the size still worked OK, so not a problem.
 
 == Free paint is free, except when you run out of undercoat
 
-image::http://jaredmorgs.github.io/images/Tree_Border_Palings_Painted.jpg[title="Painted Slats", width="300, height="500"]
+image::Tree_Border_Palings_Painted.jpg[title="Painted Slats", width="300, height="500"]
 
 The paint colour was a water-based interior colour, courtesy of Masters North Lakes, after they gave us a whole stack of mistint tins as part of a Sausage Sizzle Fundraiser we conducted. 
 Our childs' Kindergarten couldn't accept them due to the paint not being non-toxic, so we saved this colour specifically for this job, and gave the other tin to them for minor touch-ups around the Kindy. 
