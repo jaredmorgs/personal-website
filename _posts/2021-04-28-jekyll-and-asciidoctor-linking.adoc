@@ -5,6 +5,7 @@ categories: [Technology]
 tags: [jekyll, asciidoctor, link, xref]
 image: assets/images/<<<something here>>>
 featured: true
+published: false
 #hidden: true
 #rating: 4.5
 ---
