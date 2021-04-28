@@ -12,9 +12,9 @@ description: "Use RESTful API Modeling Language to help the business agree on ho
 
 I've already talked about Tom Johnson's podcast series _I'd Rather Be Writing_, where he shares his thoughts and experiences about writing API documentation in the burgeoning San Francisco technology and start-up scene.
 
-On a http://idratherbewriting.com/2015/10/12/spec-driven-design-podcast-michael-stowe/[recent podcast], Tom talked with Michael Stowe, who wrote _Undisturbed REST: The guide to designing the perfect API_.
+On a https://idratherbewriting.com/2015/10/12/spec-driven-design-podcast-michael-stowe/[IRBW podcast], Tom talked with Michael Stowe, who wrote _Undisturbed REST: The guide to designing the perfect API_.
 
-They introduced the concept of the RESTful API Modeling Langage (RAML), which you can read more about on http://raml.org/
+They introduced the concept of the RESTful API Modeling Langage (RAML), which you can read more about on https://raml.org/
 
 What makes RAML worth considering is that it is actually a full API lifecycle tool. 
 It lets you design your API design without actually coding anything, but also create a fully functional mock for customers, partners, or internal engineers to review and build from.

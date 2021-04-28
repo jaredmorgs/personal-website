@@ -1,0 +1,125 @@
+---
+layout: post
+title: "Jekyll blogs do not support xref Asciidoctor syntax"
+categories: [Technology]
+tags: [jekyll, asciidoctor, link, xref]
+image: assets/images/<<<something here>>>
+featured: true
+#hidden: true
+#rating: 4.5
+---
+:experimental:
+
+I found out that when you need to link between posts in a Jekyll site, you need to use the https://docs.asciidoctor.org/asciidoc/latest/macros/link-macro/[`link` macro] and pay special attention to the `permalink` attribute in your Jekyll template's `_config.yml` file.
+
+== Background
+
+When setting up this site, I wanted to link two GitLab related posts together because the compliment each other:
+
+* link:use-a-token-to-access-gitlab-using-sourcetree[Use a personal access token to access GitLab using SourceTree]
+
+* link:use-a-token-to-access-gitlab-using-sourcetree[Use a personal access token to access GitLab using SourceTree]
+
+
+
+== Before you start
+
+This tutorial was written in April 2021 using a MacBook Pro running macOS Big Sur.
+The procedures for adding an account to SourceTree should apply equally to Windows 10 users, however the procedure has not been tested or verified on this operating system.
+
+Gather the following accounts and other information.
+
+* An account on GitLab.com
+
+* Your GitLab.com username. You can find this in your user profile below your name.
+
++
+image::gitlab-access-preferences.png[Screenshot of the GitLab Account Settings menu open with the username highlighted]
+
+* SourceTree installed with your Atlassian account connected and verified.
+
+== Create a personal access token in GitLab
+
+To connect SourceTree with GitLab.com, you can either use SSH or create a personal access token. 
+Personal access tokens let you authenticate with GitLab over HTTPS with 2FA.
+
+To create a personal access token:
+
+. Load https://gitlab.com/-/profile/preferences to access your user profile settings page.
+
+. In the side bar, click menu:Access Tokens[] to load the *Personal Access Tokens* screen.
+
+. Add a personal access token by completing the following fields: 
+
++
+Name:: Add a short descriptive name for your token. 
+For example, `SourceTree Desktop`.
+
+Expires at:: Leave the date field blank so the token never expires. 
+Or if you prefer, select an expiry date you feel comfortable with.
+
+Scopes:: Select the `api` and `read_user` scopes for your token. 
+This allows SourceTree to have full read and write permissions to your repositories and lets the app access your user account settings so it can add this information to commits.
+
++
+Your screen should look like this example.
+
++
+image::gitlab-token-settings.png[Screenshot of GitLab personal access token settings with api and read user scopes selected]
+
+. Click btn:[Create personal access token].
+
+. Save the personal access token to a safe place (a secure password manager is recommmended).
+
++ 
+image::gitlab-personal-access-token-created.png[Screenshot of the created token, with details blurred]
+
++
+IMPORTANT: This step is the last time you will have access to the personal access token.
+Make sure you save it now before continuing.
+
+== Configure the SourceTree GitLab.com account profile
+
+Now you have created and saved the personal access token, you can configure SourceTree with this token and access your GitLab.com repositories.
+
+To set up a GitLab.com account profile in SourceTree:
+
+. Open the menu:SourceTree[Preferences > Accounts] screen.
+
+. Click btn:[Add...] to open the account options screen.
+
+. Set the following options:
+
++
+Host:: Select `GitLab.com` from the list.
+
+Username:: Type your username (not your email) into the field.
+
+Password:: Paste your personal access token into the field.
+
+Protocol:: Select `HTTPS` from the list.
+
+. Click btn:[Save].
+
+. Close the *Accounts* screen.
+
+== Test the GitLab account by cloning a GitLab repository
+
+To clone repositories from the GitLab.com remote host:
+
+. In SourceTree, click the btn:[Remote] option.
+
+. Expand the *GitLab* group.
+
+. Click the *Clone* link for the repository you want to clone.
+
+. Check that the *Clone a repository* modal displays the `https://` prefix in the *Source URL* field.
+
++
+image::gitlab-clone-https.png[Screenshot of the clone repository modal showing https protocol]
+
+. Click btn:[Clone] to clone the selected repository to your local environment.
+
+== Summary
+
+You have configured a GitLab.com account in SourceTree that uses a personal access token to authenticate with GitLab.com
