@@ -8,7 +8,7 @@ google_analytics: UA-58317734-1
 disqus: jaredmorgs
 include:
   - _pages
-permalink: '/:name/'
+permalink: '/:title/'
 authors:
   jared:
     name: Jared Morgan
