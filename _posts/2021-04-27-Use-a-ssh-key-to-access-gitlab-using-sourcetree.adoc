@@ -9,12 +9,13 @@ image: assets/images/covers/open-source.jpg
 #rating: 4.5
 ---
 :experimental:
+:page-liquid:
 
 If you want to make the switch to https://gitlab.com[GitLab.com] from GitHub, or BitBucket Cloud or Server, you can use SourceTree 3.0 to manage your repositories on your local system.
 
 SourceTree offers two ways of connnecting your GitLab.com account to SourceTree:
 
-* link:Use-a-token-to-access-gitlab-using-sourcetree[Configure a personal access token] to access GitLab.com over HTTPS.
+*  https://www.jaredleonmorgan.net/use-a-token-to-access-gitlab-using-sourcetree/[Use a personal access token] to access GitLab.com over HTTPS.
 
 * Configure a https://en.wikipedia.org/wiki/Secure_Shell_Protocol[Secure Shell (SSH)^] key, as described in this blog post.
 
@@ -105,7 +106,7 @@ Username:: Type your username (not your email) into the field.
 Password:: Type your password into the filed. 
 
 +
-NOTE: If you are using Two-factor Authentication on your GitLab.com account, read xref:2021-04-28-Use-a-personal-access-token-to-access-gitlab-using-sourcetree.adoc[my April 2021 blog post about SourceTree and GitLab.com] for help with creating a personal access token. 
+NOTE: If you are using Two-factor Authentication on your GitLab.com account, read https://www.jaredleonmorgan.net/use-a-token-to-access-gitlab-using-sourcetree/[my April 2021 blog post about SourceTree and GitLab.com] for help with creating a personal access token. 
 
 Protocol:: Select `SSH` from the list.
 
