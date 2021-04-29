@@ -35,15 +35,21 @@ paginate: 6
 paginate_path: '/page:num/'
 asciidoctor:
   safe: safe
+  liquid: true
+  source-highlighter: pygments
+  pygments-css: class
+  pygments-stylesheet: '' 
+  icons: font
   attributes:
     imagesdir: /assets/images
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+    icons: font
+#markdown: kramdown
+#kramdown:
+#  input: GFM
+#  syntax_highlighter: rouge
+#  syntax_highlighter_opts:
+#    block:
+#      line_numbers: true
 adsense: disabled
 adsense-data-ad-client: ca-pub-3412143450191416
 adsense-data-ad-slot: '1363087678'

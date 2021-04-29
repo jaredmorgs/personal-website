@@ -20,6 +20,7 @@ group :jekyll_plugins do
     gem 'jekyll-paginate'
     gem 'jekyll-seo-tag'
     gem 'jekyll-archives'
-    gem 'kramdown'
+    gem 'pygments.rb', '~> 2.1.0'
+#    gem 'kramdown'
     gem 'rouge'
 end
