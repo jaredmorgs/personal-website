@@ -59,6 +59,7 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - ads.txt
 url: ''
 whitelist:
 - jekyll-asciidoc
