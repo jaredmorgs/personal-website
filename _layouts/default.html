@@ -9,6 +9,7 @@
 <title>{{ page.title }} | {{site.name}}</title>
 
 {% seo %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
@@ -16,9 +17,13 @@
 
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 
+<link href="{{ site.baseurl }}/assets/css/asciidoc.css" rel="stylesheet">
+
+<link href="{{ site.baseurl }}/assets/css/asciidoc-pygments.css" rel="stylesheet">
+
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
-</head>
+</head> 
 
 {% if jekyll.environment == 'production' %}
 <!-- change your GA id in _config.yml -->
