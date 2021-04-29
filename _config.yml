@@ -39,7 +39,6 @@ asciidoctor:
   source-highlighter: pygments
   pygments-css: class
   pygments-stylesheet: '' 
-  icons: font
   attributes:
     imagesdir: /assets/images
     icons: font
@@ -60,6 +59,7 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - ads.txt
 url: ''
 whitelist:
 - jekyll-asciidoc
