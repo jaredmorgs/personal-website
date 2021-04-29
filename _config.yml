@@ -39,7 +39,6 @@ asciidoctor:
   source-highlighter: pygments
   pygments-css: class
   pygments-stylesheet: '' 
-  icons: font
   attributes:
     imagesdir: /assets/images
     icons: font
