@@ -1,0 +1,108 @@
+---
+layout: post
+title: "Fix an unstable, wobbly drum in a Miele W3831 front-loader washing machine "
+categories: [Technology]
+tags: [washing, miele, wobble, unstable, w3831]
+image: assets/images/miele-panel.jpg
+featured: true
+published: true
+---
+:experimental:
+
+I discovered that if your Miele W3831 front-loading washing machine is making lots of banging noises, that you most likely need to get it looked at. 
+The chances are high that your shock-absorber pistons have failed.
+These crucial devices stabilise your drum when it is spinning, so the expensive drum motor doesn't bang on the bottom of the cabinet and gets damaged.
+
+If you know how to undo screws and bolts (and put them back into the same places again), you can fix this problem yourself with a $60 part from pretty much any whitegoods spares reseller.
+All it will cost you is about two hours of your own time (unless you do this sort of thing all the time, then it is more likely one-and-a-half hours).
+
+While this procedure is specifically for a Miele W3831, you can use it as an example of how to attack the same problem on your own brand.
+
+== Symptoms of failed shock absorbers on front-loading washing machines
+
+Common symptoms of shock-absorber issues include the following:
+
+* Drum is bouncing around and banging on the side of your washing machine cabinet
+
+* Spin cycle is taking longer than normal because your machine can not balance the load before it spins
+
+* You can reach inside the machine and bounce the drum up and down freely: there is little or no resistance.
+
+== Tools you will need
+
+You need the following tools to complete this repair:
+
+* Torx T20 screwdriver 
+
+* Torx T30 screwdriver
+
+* Small flathead screwdriver (think jeweler's screwdriver with a thin blade) to release the control panel face-plate
+
+* Two half-inch or 13mm sockets with socket drivers or bars attached to remove the shock absorbers.
+
+== Parts you will need
+
+Before starting this repair, you will need to order the shock absorbers.
+
+The part is identified as a _Miele 120N Suspa_.
+
+https://spares.bigwarehouse.com.au/product_info.php?products_id=1776057
+
+I'm not affiliated with this site, but I'm just putting this example here so you can compare it with your search results.
+
+== Remove the top panel, front, and sides of the machine
+
+To get to the shock-absorbers, you need to basically disassemble all the panels from the machine:
+
+. Remove the top lid by removing the plastic covers and undoing the T20 screws on either side of the lid.
+
+. Use a flathead screwdriver to prise off the control panel plastic.
+
+. Unscrew and slide out the control panel. 
+
+. Disconnect the plugs that connect the control panel to the main controller board.
+
+. Unscrew the top screws that attach the front door panel to the frame at the top.
+
+. Pull off the spring-loaded wire clamp that holds on the door seal. 
+
+. Remove the lock screws.
+
+. Use a flathead screwdriver to release the locking tabs on the kick-plate under the door panel, and then slide the kick-plate out towards you.
+
+. Remove the two fixings hidden by the kick-plate that fasten the front panel (last ones).
+
+. Remove the T30 central door bolt (which holds the door on while removing the weaker screws).
+
+. Remove all the screws from the back, top, and front of the side panels, then slide them off.
+
+This "simple 11 step process" may sound daunting. Still, you can ease your fears by watching various YouTube videos out there that show you how to do this process on machines other than the W3831.
+
+== Remove and replace the shock absorbers
+
+The following videos describe the process I took to remove and replace the shock-absorbers.
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLB0b9iDVCVKs2s2se1zTOwdXXS9Xy62LS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+++++
+
+. Use the 13mm sockets to remove the shock absorbers.
+
+. Replace with the new shock absorbers.
+
+. Tighten everything up nice and tight again.
+
+. Reverse the panel removal steps, paying particular attention to the following overriding steps:
+
+.. When fitting the side panels, they need to slide "up and on" to the machine. There are locator tabs underneath the panels. Use your foot to apply pressure to the panel as you slide them back on, and you will fit them correctly.
+
+.. When fitting the door panel back on, make sure you thread the yellow emergency door opener back through the hole near the drain door.
+
+.. When attaching the rubber seal, take your time and make sure the seal is not pinched or doubled over when you struggle with the spring-loaded wire clamp. 
+I found this the trickiest to get back on, but take your time, and you'll get it.
+
+. Test the machine on a load to look for any leaks. 
+
+== Summary
+
+You have saved a hefty call-out fee from Miele and learned more about your washing machine, so you can save money fixing it in the future.
