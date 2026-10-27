@@ -1,0 +1,16 @@
+group_info:
+  name: "Moreton Bay Fur Meet"
+  abbr: "MBFM"
+  tagline: "Local fur meets, park days, and social outings in Moreton Bay!"
+  announcements_channel: "https://t.me/your_mbfm_announcements"
+  main_chat: "https://t.me/your_mbfm_chat"
+
+next_meet:
+  title: "Moreton Bay Park Meet & BBQ"
+  date: "Saturday, November 14, 2026"
+  time: "11:00 AM – 3:00 PM"
+  location: "Lake Eden, North Lakes QLD"
+  details: "Bring your own lunch/snacks, lawn chairs, and suit heads! Fursuit-friendly shaded area reserved."
+
+links:
+  rules: "/mbfm/rules/"

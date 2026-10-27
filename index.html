@@ -1,61 +1,94 @@
 ---
 layout: default
-title: Home
+title: Jared Leon Morgan — Character Hub & Portfolio
 ---
 
-{% if page.url == "/" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
 
-<!-- Featured
-================================================== -->
-<section class="featured-posts">
-    <div class="section-title">
-        <h2><span>Featured</span></h2>
+  <header class="profile-header">
+    <h1>Jared Leon Morgan</h1>
+    <p class="subtitle">Con-Goer • Pinball Restoration • Tech Writer</p>
+  </header>
+
+  <!-- PRIMARY JTBD TARGET -->
+  <button class="primary-hero-btn" onclick="openSocialModal()">
+    <div class="hero-btn-icon">⚡</div>
+    <div class="hero-btn-text">
+      <h2>Scan or Connect</h2>
+      <p>Telegram • Instagram • YouTube</p>
     </div>
-    <div class="row">
+  </button>
 
-    {% for post in site.posts %}
+  <div class="pillar-divider">EXPLORE SECTIONS</div>
 
-        {% if post.featured == true %}
+  <!-- FOUR CORE PILLARS -->
+  <section class="pillars-container">
+    <a href="#characters" class="pillar-card fur-theme">
+      <div class="pillar-icon">🐾</div>
+      <div class="pillar-content">
+        <h3>Fursuit & Characters</h3>
+        <p>Fintan & Nero the PinBat ref sheets and specs</p>
+      </div>
+    </a>
 
-            {% include featuredbox.html %}
+    <a href="#mbfm" class="pillar-card mbfm-theme">
+      <div class="pillar-icon">🌳</div>
+      <div class="pillar-content">
+        <h3>Moreton Bay Fur Meet</h3>
+        <p>Local meets, rules, and Telegram channel links</p>
+      </div>
+    </a>
 
-        {% endif %}
+    <a href="#pinball" class="pillar-card pin-theme">
+      <div class="pillar-icon">🕹️</div>
+      <div class="pillar-content">
+        <h3>Pinball & Hardware</h3>
+        <p>System 80 restorations, Netherworld, BlahCade</p>
+      </div>
+    </a>
 
-    {% endfor %}
+    <a href="#portfolio" class="pillar-card port-theme">
+      <div class="pillar-icon">💻</div>
+      <div class="pillar-content">
+        <h3>Portfolio & Writing</h3>
+        <p>Technical documentation & engineering strategy</p>
+      </div>
+    </a>
+  </section>
 
-    </div>
-</section>
+  <!-- FULL SCREEN SOCIALS / QR MODAL -->
+  <div id="socialModal" class="social-modal" onclick="closeSocialModal(event)">
+    <div class="social-modal-card" onclick="event.stopPropagation()">
+      <button class="close-btn" onclick="closeSocialModal()">✕ Close</button>
+      
+      <h2>Connect with Jared</h2>
+      <p class="modal-subtext">Tap a link below or scan the QR codes directly from my screen!</p>
 
-{% endif %}
-
-<!-- Posts Index
-================================================== -->
-<section class="recent-posts">
-
-    <div class="section-title">
-
-        <h2><span>All Stories</span></h2>
-
-    </div>
-
-    <div class="row listrecent">
-
-        {% for post in paginator.posts %}
-
-        {% include postbox.html %}
-
+      <div class="social-list">
+        {% for item in site.data.socials.channels %}
+        <div class="social-item" style="border-left: 6px solid {{ item.color }};">
+          <div class="social-info">
+            <h4>{{ item.name }}</h4>
+            <span class="handle">{{ item.handle }}</span>
+            <p class="note">{{ item.note }}</p>
+            <a href="{{ item.url }}" target="_blank" class="connect-link-btn" style="background-color: {{ item.color }};">
+              Open {{ item.name }}
+            </a>
+          </div>
+        </div>
         {% endfor %}
-
+      </div>
     </div>
+  </div>
 
-</section>
-
-<!-- Pagination
-================================================== -->
-<div class="bottompagination">
-<div class="pointerup"><i class="fa fa-caret-up"></i></div>
-<span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
-</div>
-
+  <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+</body>
+</html>
