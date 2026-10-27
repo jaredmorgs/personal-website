@@ -1,0 +1,165 @@
+/* High contrast, fursuit-friendly styling */
+:root {
+  --bg: #12131a;
+  --card-bg: #1a1c27;
+  --accent-fur: #ff6b35;
+  --accent-mbfm: #2ec4b6;
+  --accent-pin: #ffd166;
+  --accent-port: #a06cd5;
+  --text-main: #ffffff;
+  --text-muted: #b0b3c6;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-main);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 1.25rem;
+  line-height: 1.5;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.profile-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+  font-size: 0.95rem;
+}
+
+/* Primary JTBD Tap Target */
+.primary-hero-btn {
+  width: 100%;
+  min-height: 90px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 114, 255, 0.4);
+  text-align: left;
+}
+
+.primary-hero-btn:active {
+  transform: scale(0.98);
+}
+
+.hero-btn-icon {
+  font-size: 2.2rem;
+  margin-right: 1rem;
+}
+
+.hero-btn-text h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.hero-btn-text p {
+  margin: 0.2rem 0 0 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.pillar-divider {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  margin: 1.5rem 0 1rem 0;
+}
+
+/* Pillars */
+.pillar-card {
+  display: flex;
+  align-items: center;
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: var(--text-main);
+  border: 2px solid transparent;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.pillar-card.fur-theme { border-color: var(--accent-fur); }
+.pillar-card.mbfm-theme { border-color: var(--accent-mbfm); }
+.pillar-card.pin-theme { border-color: var(--accent-pin); }
+.pillar-card.port-theme { border-color: var(--accent-port); }
+
+.pillar-icon { font-size: 2rem; margin-right: 1rem; }
+.pillar-card h3 { margin: 0; font-size: 1.15rem; }
+.pillar-card p { margin: 0.25rem 0 0 0; color: var(--text-muted); font-size: 0.88rem; }
+
+/* Fullscreen Modal */
+.social-modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.social-modal-card {
+  background: var(--card-bg);
+  width: 100%;
+  max-width: 480px;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 24px;
+  padding: 1.5rem;
+  position: relative;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.6);
+}
+
+.close-btn {
+  position: absolute;
+  top: 1rem; right: 1rem;
+  background: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.social-item {
+  background: #232636;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.social-info h4 { margin: 0; font-size: 1.1rem; }
+.social-info .handle { font-weight: bold; color: var(--text-muted); font-size: 0.9rem; }
+.social-info .note { font-size: 0.85rem; margin: 0.4rem 0; color: var(--text-muted); }
+
+.connect-link-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.6rem 1rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}

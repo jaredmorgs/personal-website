@@ -1,0 +1,40 @@
+- id: nero
+  name: Nero the PinBat
+  species: Bat / Dragon Hybrid
+  tagline: Candy Corn Derpy Bat
+  pronouns: He / Him
+  colors:
+    - Black
+    - White
+    - Yellow
+    - Orange
+  avatar: /assets/images/avatar-nero.png
+  ref_sheet: /assets/images/ref-sheet-nero.jpg
+
+- id: fintan
+  name: Fintan
+  species: Beach Dweller Manokit
+  tagline: Moreton Bay Fur Meet Mascot
+  pronouns: They / Them
+  colors:
+    - Ocean Blue
+    - White
+    - Teal
+    - Red
+    - Yellow
+  avatar: /assets/images/avatar-fintan.png
+  ref_sheet: /assets/images/ref-sheet-fintan.png
+
+- id: grymm
+  name: Grymm
+  species: Bearded Vulture
+  tagline: The dapper flapper himself
+  pronouns: He / Him
+  colors:
+    - Black
+    - White
+    - Dark Grey
+    - Bone
+    - Gold
+  avatar: /assets/images/avatar-grymm.png
+  ref_sheet: /assets/images/avatar-grymm.png

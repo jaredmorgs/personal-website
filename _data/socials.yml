@@ -1,0 +1,31 @@
+primary_prompt: "Scan or Tap to Connect!"
+subtext: "Best ways to catch up, share meet photos, and chat."
+
+channels:
+  - name: Telegram
+    handle: "@Nero_the_PinBat"
+    url: "https://t.me/Nero_the_PinBat"
+    color: "#229ED9"
+    qr_image: "/assets/images/qr-telegram.jpg"
+    note: "Shared Tele account for Nero, Fintan, and Grymm"
+
+  - name: Instagram
+    handle: "@nero_the_pinbat"
+    url: "https://instagram.com/nero_the_pinbat"
+    color: "#E4405F"
+    qr_image: "/assets/images/instagram-qr.jpg"
+    note: "Shared Insta account for Nero, Fintan, and Grymm"
+
+  - name: YouTube - Nero
+    handle: "@nero_the_pinbat"
+    url: "https://www.youtube.com/@nero_the_pinbat"
+    color: "#FF0000"
+    qr_image: "/assets/images/qr-youtube-nero.png"
+    note: "Long-form furry content from Nero, Fintan, and Grymm"
+
+  - name: YouTube - BlahCade
+    handle: "@blahcadepinball"
+    url: "https://www.youtube.com/@blahcadepinball"
+    color: "#FF0000"
+    qr_image: "/assets/images/qr-youtube-blahcade.png"
+    note: "The premier commercial digital pinball podcast"
