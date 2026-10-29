@@ -15,7 +15,7 @@ Open `http://127.0.0.1:4000` (use your LAN IP to test on a phone).
 
 | Change | File |
 |--------|------|
-| Social links & QR images | [`_data/socials.yml`](_data/socials.yml) + images in [`assets/images/`](assets/images/) |
+| Social links & QR images | [`_data/socials.yml`](_data/socials.yml) + images in [`assets/images/`](assets/images/) (shown on [`/connect/`](connect/index.html)) |
 | Character list, avatars, ref sheets | [`_data/characters.yml`](_data/characters.yml) |
 | Short character bio text | [`_characters/<id>.md`](_characters/) (e.g. `nero.md`) |
 | Next MBFM meet | [`_data/mbfm.yml`](_data/mbfm.yml) → `next_meet` |

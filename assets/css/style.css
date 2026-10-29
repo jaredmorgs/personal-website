@@ -4,6 +4,7 @@
   --card-bg: #1a1c27;
   --accent-fur: #ff6b35;
   --accent-mbfm: #2ec4b6;
+  --accent-connect: #0072ff;
   --accent-pin: #ffd166;
   --accent-port: #a06cd5;
   --text-main: #ffffff;
@@ -122,6 +123,7 @@ body {
 
 .pillar-card.fur-theme { border-color: var(--accent-fur); }
 .pillar-card.mbfm-theme { border-color: var(--accent-mbfm); }
+.pillar-card.connect-theme { border-color: var(--accent-connect); }
 .pillar-card.pin-theme { border-color: var(--accent-pin); }
 .pillar-card.port-theme { border-color: var(--accent-port); }
 
@@ -171,6 +173,15 @@ body {
   border-radius: 12px;
   padding: 1rem;
   margin-top: 1rem;
+}
+
+.social-list-page .social-item:first-child {
+  margin-top: 0;
+}
+
+.social-list-page {
+  max-width: 480px;
+  margin: 0 auto;
 }
 
 .social-info h4 { margin: 0; font-size: 1.1rem; }
