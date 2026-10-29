@@ -4,15 +4,15 @@ title: Character Hub
 ---
 
 <header class="profile-header">
-  <h1>Nero the PinBat</h1>
-  <p class="subtitle">Socials · Fursuit characters · Moreton Bay Fur Meet</p>
+  <h1>Jared Leon Morgan</h1>
+  <p class="subtitle">Fursuit characters · Moreton Bay Fur Meet</p>
 </header>
 
 <button type="button" class="primary-hero-btn" onclick="openSocialModal()">
-  <div class="hero-btn-icon" aria-hidden="true">⚡</div>
+  <div class="hero-btn-icon">⚡</div>
   <div class="hero-btn-text">
-    <span class="hero-btn-title">Scan or Connect</span>
-    <span class="hero-btn-subtitle">Telegram · Instagram · YouTube</span>
+    <h2>Scan or Connect</h2>
+    <p>Telegram · Instagram · YouTube</p>
   </div>
 </button>
 
