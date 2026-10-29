@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="/assets/css/style.css">
   {% seo %}
   {% feed_meta %}
 </head>
@@ -27,6 +27,6 @@
 
   {% include social-modal.html %}
 
-  <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+  <script src="/assets/js/script.js"></script>
 </body>
 </html>
