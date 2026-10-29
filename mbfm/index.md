@@ -34,7 +34,7 @@ permalink: /mbfm/
 </section>
 
 <section class="link-actions">
-  <a href="{{ links.rules | relative_url }}" class="pillar-card mbfm-theme rules-link-card">
+  <a href="{{ m.links.rules | relative_url }}" class="pillar-card mbfm-theme rules-link-card">
     <div class="pillar-icon">📋</div>
     <div class="pillar-content">
       <h3>Rules &amp; guidelines</h3>
