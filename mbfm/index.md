@@ -31,6 +31,7 @@ permalink: /mbfm/
 <section class="link-actions">
   <h2>Telegram</h2>
   <a href="{{ g.announcements_channel }}" class="action-btn mbfm-btn" target="_blank" rel="noopener noreferrer">Announcements channel</a>
+  <a href="{{ g.main_chat }}" class="action-btn mbfm-btn-outline" target="_blank" rel="noopener noreferrer">Main chat (18+)</a>
 </section>
 
 <section class="link-actions">
