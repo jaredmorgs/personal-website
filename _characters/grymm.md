@@ -4,4 +4,6 @@ character_id: grymm
 title: Grymm
 ---
 
-The dapper bearded vulture — often spotted with Nero and Fintan.
+The dapper bearded vulture.
+
+**Maker:** Stitch Up Fursuits.

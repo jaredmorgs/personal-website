@@ -4,8 +4,8 @@ title: Character Hub
 ---
 
 <header class="profile-header">
-  <h1>Jared Leon Morgan</h1>
-  <p class="subtitle">Fursuit characters · Moreton Bay Fur Meet</p>
+  <h1>Nero the PinBat</h1>
+  <p class="subtitle">Socials · Fursuit characters · Moreton Bay Fur Meet</p>
 </header>
 
 <button type="button" class="primary-hero-btn" onclick="openSocialModal()">

@@ -5,3 +5,7 @@ title: Fintan
 ---
 
 Moreton Bay Fur Meet mascot and beach-loving manokit.
+
+**Maker:** Howlz By Zekora.
+
+**Fursuit pants:** KTCatVintange on Etsy
