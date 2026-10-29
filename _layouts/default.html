@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% seo %}
+  {% feed_meta %}
+</head>
+<body class="{% if page.show_connect %}has-sticky-connect{% endif %}">
+
+  {{ content }}
+
+  {% if page.show_connect %}
+  <div class="sticky-connect">
+    <button type="button" class="primary-hero-btn sticky-connect-btn" onclick="openSocialModal()">
+      <div class="hero-btn-icon">⚡</div>
+      <div class="hero-btn-text">
+        <h2>Scan or Connect</h2>
+        <p>Telegram · Instagram · YouTube</p>
+      </div>
+    </button>
+  </div>
+  {% endif %}
+
+  {% include social-modal.html %}
+
+  <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+</body>
+</html>

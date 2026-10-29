@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: doc
 title: MBFM Rules & Guidelines
 permalink: /mbfm/rules/
 ---

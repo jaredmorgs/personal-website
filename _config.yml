@@ -1,7 +1,12 @@
 title: Jared Leon Morgan
-description: Personal website, character roster, pinball projects, and Moreton Bay Fur Meet hub.
+description: Convention-friendly hub for social links, fursona ref sheets, and Moreton Bay Fur Meet.
 url: "https://www.jaredleonmorgan.net"
 baseurl: ""
+
+collections:
+  characters:
+    output: true
+    permalink: /characters/:name/
 
 markdown: kramdown
 kramdown:

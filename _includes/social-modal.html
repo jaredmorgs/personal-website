@@ -1,0 +1,26 @@
+<div id="socialModal" class="social-modal" onclick="closeSocialModal(event)" role="dialog" aria-modal="true" aria-labelledby="socialModalTitle">
+  <div class="social-modal-card" onclick="event.stopPropagation()">
+    <button type="button" class="close-btn" onclick="closeSocialModal()">✕ Close</button>
+
+    <h2 id="socialModalTitle">{{ site.data.socials.primary_prompt | default: "Connect" }}</h2>
+    <p class="modal-subtext">{{ site.data.socials.subtext }}</p>
+
+    <div class="social-list">
+      {% for item in site.data.socials.channels %}
+      <div class="social-item" style="border-left: 6px solid {{ item.color }};">
+        {% if item.qr_image %}
+        <img src="{{ item.qr_image | relative_url }}" alt="QR code for {{ item.name }}" class="social-qr" loading="lazy" decoding="async">
+        {% endif %}
+        <div class="social-info">
+          <h4>{{ item.name }}</h4>
+          <span class="handle">{{ item.handle }}</span>
+          <p class="note">{{ item.note }}</p>
+          <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="connect-link-btn" style="background-color: {{ item.color }};">
+            Open {{ item.name }}
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

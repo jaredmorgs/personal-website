@@ -1,0 +1,26 @@
+---
+layout: default
+title: Characters
+show_connect: true
+permalink: /characters/
+---
+
+{% include back-home.html %}
+
+<header class="page-header">
+  <h1>Characters</h1>
+  <p class="subtitle">Tap a character for their reference sheet</p>
+</header>
+
+<section class="character-grid">
+  {% for char in site.data.characters %}
+  <a href="{{ '/characters/' | append: char.id | append: '/' | relative_url }}" class="character-card">
+    <img src="{{ char.avatar | relative_url }}" alt="" class="character-card-avatar" width="72" height="72" loading="lazy">
+    <div class="character-card-body">
+      <h2>{{ char.name }}</h2>
+      <p>{{ char.tagline }}</p>
+      <span class="character-card-meta">{{ char.pronouns }}</span>
+    </div>
+  </a>
+  {% endfor %}
+</section>

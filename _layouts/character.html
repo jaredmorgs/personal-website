@@ -1,0 +1,41 @@
+---
+layout: default
+show_connect: true
+---
+{% assign char = site.data.characters | where: "id", page.character_id | first %}
+{% unless char %}
+  <p class="error-msg">Character not found.</p>
+{% else %}
+  {% include back-home.html %}
+
+  <header class="character-header">
+    <img src="{{ char.avatar | relative_url }}" alt="{{ char.name }} avatar" class="character-avatar" width="120" height="120">
+    <h1>{{ char.name }}</h1>
+    <p class="character-tagline">{{ char.tagline }}</p>
+    <p class="character-meta">{{ char.species }} · {{ char.pronouns }}</p>
+    <ul class="color-chips">
+      {% for color in char.colors %}
+      <li>{{ color }}</li>
+      {% endfor %}
+    </ul>
+  </header>
+
+  {% if content != "" %}
+  <section class="markdown-content character-bio">
+    {{ content }}
+  </section>
+  {% endif %}
+
+  <section class="ref-sheet-section">
+    <h2>Reference sheet</h2>
+    <p class="ref-sheet-hint">Pinch to zoom · tap to view full size</p>
+    <a href="{{ char.ref_sheet | relative_url }}" class="ref-sheet-link" target="_blank" rel="noopener">
+      <img
+        src="{{ char.ref_sheet | relative_url }}"
+        alt="{{ char.name }} reference sheet"
+        class="ref-sheet-img"
+        loading="lazy"
+        decoding="async">
+    </a>
+  </section>
+{% endunless %}

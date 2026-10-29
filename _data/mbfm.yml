@@ -2,6 +2,7 @@ group_info:
   name: "Moreton Bay Fur Meet"
   abbr: "MBFM"
   tagline: "Local fur meets, park days, and social outings in Moreton Bay!"
+  # Replace with your real Telegram invite links (see README)
   announcements_channel: "https://t.me/your_mbfm_announcements"
   main_chat: "https://t.me/your_mbfm_chat"
 
