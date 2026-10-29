@@ -50,6 +50,11 @@ body {
   cursor: pointer;
   box-shadow: 0 8px 24px rgba(0, 114, 255, 0.4);
   text-align: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  font: inherit;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 .primary-hero-btn:active {
@@ -412,6 +417,8 @@ body {
 .sticky-connect-btn {
   margin: 0;
   min-height: 72px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .has-sticky-connect {

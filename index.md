@@ -9,10 +9,10 @@ title: Character Hub
 </header>
 
 <button type="button" class="primary-hero-btn" onclick="openSocialModal()">
-  <div class="hero-btn-icon">⚡</div>
+  <div class="hero-btn-icon" aria-hidden="true">⚡</div>
   <div class="hero-btn-text">
-    <h2>Scan or Connect</h2>
-    <p>Telegram · Instagram · YouTube</p>
+    <span class="hero-btn-title">Scan or Connect</span>
+    <span class="hero-btn-subtitle">Telegram · Instagram · YouTube</span>
   </div>
 </button>
 
